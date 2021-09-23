@@ -4,10 +4,173 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Full Stack Conference</title>
 </head>
 <body>
-    <form></form>
+    <form action="/" method="get">
+        <h3>Register for</h3>
+        <h1>Full Stack Conference</h1>
+
+        <fieldset class="basicinfo">
+            <p>*-required field</p>
+            <legend>Basic Info</legend>
+            
+            <label for="name">Name:*</label>
+            <input type="text" id="nume" name="user_name">
+
+            <label for="email">Email Address:*</label>
+            <input type="email" id="mail" name="user_email"> 
+
+            <label for="jobrole">Job Role:</label>
+            <select id="job" name="user_job">
+                 <option disabled selected value>Select Job Role</option>
+                 <option value="frontend_developer">Front-End Developer</option>
+                 <option value="php_developer">PHP Developer</option>
+                 <option value="python_developer">Python Developer</option>
+                 <option value="sql_developer">SQL Developer</option>
+                 
+
+            </select>
+            <input id="otherjob" name="user_otherjob" placeholder="Other job role?">
+
+
+
+        </fieldset>
+
+
+        <fieldset class="tshirtinfo">
+            <legend>T-Shirt Info</legend>
+            <label for="size">Size:</label>
+            <select id="size" name="tshirt_size">
+               <option disabled selected value>M</option>
+               <option value"xs">XS</option>
+               <option value"s">S</option>
+               <option value"m">M</option>
+               <option value"l">L</option>
+               <option value"xl">XL</option>
+               <option value"xxl">XXL</option>
+
+            </select>
+
+            <label for="design">Design:</label>
+            <select id="design" name="tshirt_design">
+                <option disabled selected value>Select Theme</option>
+                <option value"t1">1st Theme</option>
+                <option value"t2">2nd Theme</option>
+                <option value"t3">3rd Theme</option>
+                <option value"t4">4th Theme</option>
+                <option value"t5">5th Theme</option>
+                
+ 
+             </select>
+
+             <label for="color">Color:</label>
+            <select id="color" name="tshirt_color">
+                <option disabled selected value>Select a design theme above</option>
+                <option value"c1">Red</option>
+                <option value"c2">Blue</option>
+                <option value"c3">Green</option>
+                <option value"c4">Yellow</option>
+                <option value"c5">Orange</option>
+                
+ 
+             </select>
+ 
+
+
+        </fieldset>
+
+    <fieldset class="reg_for_act">
+        <legend>Register for Activities *</legend>
+        <section class="mainconf">
+           
+            <input type="radio" id="mainc"  name="mainconf">
+            <label for="mainconf" id="mainc">Main Conference</label>
+            <img src="img/js.png">
+            <p>$200</p>
+
+
+        </section>
+
+    <section class="containerLIB">
+            <section class="js-lib-workshop">
+                
+                <input type="radio" id="jsworkshop"  name="jsworkshop">
+                <label for="jsworkshopf" id="jsworksh">JavaScript Libraries WorkShop</label>
+                <img src="img/react.png">
+                <p>Tuesday 9am-12pm</p>
+                <p>$100</p>
+
+
+            </section>
+
+
+            <section class="node-js-workshop">
+                
+                <input type="radio" id="node-workshop"  name="node-workshop">
+                <label for="jnode-workshop" id="nodejsworkshop">Node.js WorkShop</label>
+                <img src="img/nodeJS.png">
+                <p>Tuesday 1pm-4pm</p>
+                <p>$100</p>
+
+
+            </section>
+
+            <section class="js-frame-workshop">
+                
+                <input type="radio" id="js-fr-workshop"  name="js-fr-workshop">
+                <label for="js-fr-workshop" id="jsfrworkshop">JavaScript Frameworks WorkShop</label>
+                <img src="img/angular.jpg">
+                <p>Tuesday 9pm-12pm</p>
+                <p>$100</p>
+            </section>    
+
+            <section class="build-tools-workshop">
+            
+                <input type="radio" id="build-tls-workshop"  name="build-tls-workshop">
+                <label for="build-tls-workshop" id="bd_tls_workshop">Build tools WorkShop</label>
+                <img src="img/buildtools.png">
+                <p>Tuesday 1pm-4pm</p>
+                <p>$100</p>
+
+            </section>
+
+            <section class="npm-workshop">
+            
+                <input type="radio" id="npmworkshop"  name="npmworkshop">
+                <label for="npmworkshop" id="npmworksh">npm Workshop</label>
+                <img src="img/npm.png">
+                <p>Wednesday 9am-12pm</p>
+                <p>$100</p>
+
+            </section>
+
+            <section class="express-workshop">
+            
+                <input type="radio" id="exp-workshop"  name="exp-workshop">
+                <label for="exp-workshop" id="expr_workshop">Express Workshop</label>
+                <img src="img/ex.jpg">
+                <p>Wednesday 1pm-4pm</p>
+                <p>$100</p>
+
+            </section>
+
+            <h3>Total: $0<h2></h3>
+
+    </section>
+
+    </fieldset>
+
+    <fieldset class="paymentinfo">
+        <legend>Payment Info</legend>
+
+    </fieldset>
+
+
+
+    </form>
     
 </body>
-</html>
+</html><
