@@ -5,21 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+   
     <link rel="stylesheet" href="css/style.css">
+
     <title>Full Stack Conference</title>
 </head>
 <body>
 
-    <footer>
+
+    <header>
         <h3>Register for</h3>
         <h1>Full Stack Conference</h1>
-        </footer>
-        
+    </header>
+    
+
     <form action="/" method="get">
+
         
+    <section class="container_basic_tshirt">
+        <p id="required">*-required field</p>
         <fieldset class="basicinfo">
-            <p>*-required field</p>
-            <legend>Basic Info</legend>
+           
+            <legend id="binfo">Basic Info</legend>
             
             <label for="name">Name:*</label>
             <input type="text" id="nume" name="user_name">
@@ -45,7 +52,7 @@
 
 
         <fieldset class="tshirtinfo">
-            <legend>T-Shirt Info</legend>
+            <legend id="tsi">T-Shirt Info</legend>
             <label for="size">Size:</label>
             <select id="size" name="tshirt_size">
                <option disabled selected value>M</option>
@@ -86,17 +93,22 @@
 
         </fieldset>
 
+    </section> 
+
     <fieldset class="reg_for_act">
-        <legend>Register for Activities *</legend>
-        <section class="mainconf">
-           
+        <legend id="rfa">Register for Activities *</legend>
+
+    <section class="mainconf">
+         
+          <section class="ceva">
             <input type="radio" id="mainc"  name="mainconf">
             <label for="mainconf" id="mainc">Main Conference</label>
-            <img src="img/js.png">
-            <p>$200</p>
-
-
         </section>
+
+            <img src="img/js.png" id="img-js">
+            <p id="parag1-mainconf">Monday 9am-12pm</p>
+            <p id="parag2-mainconf">$200</p>
+    </section>
 
     <section class="containerLIB">
             <section class="js-lib-workshop">
@@ -252,4 +264,4 @@
     </form>
     
 </body>
-</html><
+</html>

@@ -1,0 +1,89 @@
+img{
+    width: 30px;
+    height: 30px;
+}
+
+
+header{
+    background-image: linear-gradient(90deg,#c64969, #d1a461);
+
+    padding: 2px;
+
+
+  
+}
+
+header h1{
+    color:white;
+    font-size: 20px;
+    margin-bottom:20px;
+    
+}
+
+header h3{
+    color:white;
+    font-size: 15px;
+    margin-top:20px;
+    
+}
+
+body{
+    background-color: #faf6ed;
+    width:100%;
+
+    margin: 0px;
+}
+
+input {
+    background-color: #fefdf9;
+    border:1px solid #e9e4de;
+}
+
+select{
+    background-color: #fefdf9;
+    border:1px solid #e9e4de;
+    width:45%;
+}
+
+.container_basic_tshirt{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:100%;
+}
+
+fieldset.basicinfo{
+    width:90%;
+}
+
+fieldset.tshirtinfo{
+    width:90%;
+    border:none;
+    margin-top:20px;
+}
+
+
+.basicinfo{
+    border:none;
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+
+#nume,#email,#job{
+    display:block;
+}
+
+.tshirtinfo{
+    display:flex;
+    width:50%;
+    flex-direction:column;
+   
+}
+
+#size,#design,#color{
+    display:block;
+}
+
+select#size,#design,#color{
+    width:40%;
+}

@@ -3,19 +3,149 @@ img{
     height: 30px;
 }
 
-footer{
-    background-image: linear-gradient(90deg,#c64969 0%, #d1a461 100%);
-    height:80px;
+
+header{
+    background-image: linear-gradient(90deg,#c64969, #d1a461);
+
+    padding: 2px;
+
+
+  
 }
 
-footer h1{
+header h1{
     color:white;
     font-size: 20px;
-    margin:auto;
+    margin-bottom:20px;
+    
 }
 
-footer h3{
+header h3{
     color:white;
     font-size: 15px;
-    margin:auto;
+    margin-top:20px;
+    
 }
+
+body{
+    background-color: #faf6ed;
+    width:100%;
+
+    margin: 0px;
+}
+
+input {
+    background-color: #fefdf9;
+    border:1px solid #e9e4de;
+}
+
+fieldset.basicinfo{
+    display:flex;
+    flex-direction: column;
+    border:none;
+    margin-top:10px;
+    padding: 10px;
+    color:rgb(71, 71, 71);
+}
+#required{
+    font-size: 12px;
+    padding: 10px;
+}
+
+#binfo{
+    font-weight: bold;
+}
+
+select#job{
+    background-color: #fefdf9;
+    color:rgb(80, 80, 80);
+
+}
+
+
+fieldset.tshirtinfo{
+    padding:10px;
+    border:none;
+    margin-top:20px;
+    color:rgb(71, 71, 71);
+    margin-bottom:20px;
+    display:flex;
+    flex-direction: column;
+}
+
+#tsi{
+    font-weight: bold;
+}
+
+select#size{
+margin-top:10px;
+margin-bottom:10px;
+color:gray;
+display:block;
+}
+
+select#color{
+margin-top:10px;
+color:gray;
+display:block;
+}
+
+label.color{
+
+display:block;
+}
+
+select#design{
+margin-top:10px;
+margin-bottom:10px;
+color:gray;
+display:block;
+}
+
+#rfa{
+    font-weight: bold;
+}
+fieldset.reg_for_act{
+    border:none;
+    padding:10px;
+
+}
+
+.mainconf{
+ 
+    display: grid;
+
+    grid-template-columns:1fr 1fr ;
+
+    grid-template-rows: auto;
+
+    grid-template-areas: "ceva  img " " paragraf1 paragraf2";
+
+    
+}
+
+
+
+.ceva{
+    grid-area:ceva ;
+}
+
+#imgjs{
+
+    grid-area: img;
+}
+
+#parag1-mainconf{
+    grid-area:paragraf1;
+}
+
+#parag2-mainconf{
+    grid-area:paragraf2;
+}
+
+
+
+
+
+
+
