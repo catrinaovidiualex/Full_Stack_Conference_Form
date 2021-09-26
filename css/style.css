@@ -397,6 +397,17 @@ fieldset.reg_for_act{
     max-height: 35px;
 }
 
+footer{
+    background-image: linear-gradient(90deg,#c64969, #d1a461);
+
+    padding: 2px;
+    color:white;
+    text-align: center;
+    height:30px;
+    max-height:50px;
+
+}
+
 
 
 
