@@ -100,80 +100,95 @@
 
     <section class="mainconf">
          
-          <section class="ceva">
+          <section class="ceva1">
             <input type="radio" id="mainc"  name="mainconf">
             <label for="mainconf" id="mainc">Main Conference</label>
         </section>
 
-            <img src="img/js.png" id="img-js">
+            <img src="img/js.png" id="img-mc">
             <p id="parag1-mainconf">Monday 9am-12pm</p>
             <p id="parag2-mainconf">$200</p>
     </section>
 
     <section class="containerLIB">
-            <section class="js-lib-workshop">
-                
+                            
+            <section class="ceva2">
                 <input type="radio" id="jsworkshop"  name="jsworkshop">
                 <label for="jsworkshopf" id="jsworksh">JavaScript Libraries WorkShop</label>
-                <img src="img/react.png">
-                <p>Tuesday 9am-12pm</p>
-                <p>$100</p>
-
-
             </section>
+                <img src="img/react.png" id="img-js">
+                <p id="parag1-js">Tuesday 9am-12pm</p>
+                <p id="parag2-js">$100</p>
+
+
+     </section>
 
 
             <section class="node-js-workshop">
                 
+                <section class="ceva3">
                 <input type="radio" id="node-workshop"  name="node-workshop">
                 <label for="jnode-workshop" id="nodejsworkshop">Node.js WorkShop</label>
-                <img src="img/nodeJS.png">
-                <p>Tuesday 1pm-4pm</p>
-                <p>$100</p>
+                </section>
+
+                <img src="img/nodeJS.png" id="img-node">
+                <p id="parag1-node">Tuesday 1pm-4pm</p>
+                <p id="parag2-node">$100</p>
 
 
             </section>
 
             <section class="js-frame-workshop">
                 
+                <section class="ceva4">
                 <input type="radio" id="js-fr-workshop"  name="js-fr-workshop">
                 <label for="js-fr-workshop" id="jsfrworkshop">JavaScript Frameworks WorkShop</label>
-                <img src="img/angular.jpg">
-                <p>Tuesday 9pm-12pm</p>
-                <p>$100</p>
+                </section>
+                
+                <img src="img/angular.jpg" id="img-angular">
+                <p id="p1-angular">Tuesday 9pm-12pm</p>
+                <p id="p2-angular">$100</p>
             </section>    
 
             <section class="build-tools-workshop">
-            
+
+                <section class="ceva5">            
                 <input type="radio" id="build-tls-workshop"  name="build-tls-workshop">
                 <label for="build-tls-workshop" id="bd_tls_workshop">Build tools WorkShop</label>
-                <img src="img/buildtools.png">
-                <p>Tuesday 1pm-4pm</p>
-                <p>$100</p>
+                </section>
+
+                <img src="img/buildtools.png" id="img-build">
+                <p id="p1-build">Tuesday 1pm-4pm</p>
+                <p id="p2-build">$100</p>
 
             </section>
 
             <section class="npm-workshop">
-            
+
+                <section class="ceva6">
                 <input type="radio" id="npmworkshop"  name="npmworkshop">
                 <label for="npmworkshop" id="npmworksh">npm Workshop</label>
-                <img src="img/npm.png">
-                <p>Wednesday 9am-12pm</p>
-                <p>$100</p>
+                </section>
+
+                <img src="img/npm.png" id="img-npm">
+                <p id="p1-npm">Wednesday 9am-12pm</p>
+                <p id="p2-npm">$100</p>
 
             </section>
 
             <section class="express-workshop">
-            
+
+                <section class="ceva7">
                 <input type="radio" id="exp-workshop"  name="exp-workshop">
                 <label for="exp-workshop" id="expr_workshop">Express Workshop</label>
-                <img src="img/ex.jpg">
-                <p>Wednesday 1pm-4pm</p>
-                <p>$100</p>
+                </section>
+                <img src="img/ex.jpg" id="img-exp">
+                <p id="p1-exp">Wednesday 1pm-4pm</p>
+                <p id="p2-exp">$100</p>
 
             </section>
 
-            <h3>Total: $0<h2></h3>
+            <h3>Total: $0</h3>
 
     </section>
 
@@ -182,7 +197,7 @@
     <fieldset class="paymentinfo">
         <legend>Payment Info</legend>
 
-        <section>
+        <section class="container-pi">
             <label for="pay">I'am going to pay with:</label>
             <select id="pay" name="pay">
                  <option disabled selected value>Select Payment Method</option>
@@ -202,7 +217,7 @@
 
         </section>
 
-        <section>
+        <section class="container-cardinfo">
             <label for="exp_date">Expiration date:</label>
 
             <select name='expireMM' id='expireMM'>
@@ -231,7 +246,7 @@
                 <option value='23'>2023</option>
                 <option value='24'>2024</option>
             </select> 
-            <input class="inputCard" type="hidden" name="expiry" id="expiry" maxlength="4"/>
+            <input class="inputCard" type="hidden" name="expiry" id="expire" maxlength="4"/>
            
             <label for="zipcode">Zip Code: *</label>
             <input type=text" id="zipcode" name="user_zipcode"> 
@@ -242,13 +257,13 @@
 
         </section>
 
-        <section>
+        <section class="paypal">
          <h3>PayPal</h3>
          <p>If you selected the PayPal option  we'll take you to PayPal's site to set up your biling information, when you click "Register" below.</p>
 
         </section>
 
-        <section>
+        <section class="bitcoin">
             <h3>Bitcoin</h3>
             <p>If you selected the Bitcoin option  we'll take you to Coinbase's site to set up your biling information. Due to the nature of exchanging Bitcoin, all Bitcoin transactions will be final.</p>
    

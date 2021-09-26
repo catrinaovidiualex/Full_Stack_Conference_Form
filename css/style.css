@@ -59,6 +59,7 @@ fieldset.basicinfo{
 select#job{
     background-color: #fefdf9;
     color:rgb(80, 80, 80);
+    border: 1px solid #e9e4de;
 
 }
 
@@ -82,12 +83,14 @@ margin-top:10px;
 margin-bottom:10px;
 color:gray;
 display:block;
+border: 1px solid #e9e4de;
 }
 
 select#color{
 margin-top:10px;
 color:gray;
 display:block;
+border: 1px solid #e9e4de;
 }
 
 label.color{
@@ -100,6 +103,7 @@ margin-top:10px;
 margin-bottom:10px;
 color:gray;
 display:block;
+border: 1px solid #e9e4de;
 }
 
 #rfa{
@@ -126,22 +130,287 @@ fieldset.reg_for_act{
 
 
 
-.ceva{
+.ceva1{
     grid-area:ceva ;
 }
 
-#imgjs{
+#img-mc{
 
     grid-area: img;
+    margin-left:auto;
+        
 }
 
 #parag1-mainconf{
     grid-area:paragraf1;
+    
 }
 
 #parag2-mainconf{
     grid-area:paragraf2;
+    text-align: right;
 }
+
+
+
+.containerLIB{
+ 
+    display: grid;
+
+    grid-template-columns:1fr 1fr ;
+
+    grid-template-rows: auto;
+
+    grid-template-areas: "a  b " " p1 p2";
+
+    
+}
+
+.ceva2{
+    grid-area:a;
+}
+
+#img-js{
+    grid-area:b;
+    margin-left:auto;
+}
+
+#parag1-js{
+    grid-area:p1;
+}
+
+#parag2-js{
+    grid-area:p2;
+    margin-left:auto;
+}
+
+
+.node-js-workshop{
+ 
+    display: grid;
+
+    grid-template-columns:1fr 1fr ;
+
+    grid-template-rows: auto;
+
+    grid-template-areas: "c  d " " n1 n2";
+
+    
+}
+
+.ceva3{
+    grid-area: c;
+}
+
+#img-node{
+    grid-area: d;
+    margin-left: auto;
+}
+
+#parag1-node{
+    grid-area:n1;
+}
+
+#parag2-node{
+    grid-area:n2;
+    margin-left: auto;
+}
+
+
+.js-frame-workshop{
+ 
+    display: grid;
+
+    grid-template-columns:1fr 1fr ;
+
+    grid-template-rows: auto;
+
+    grid-template-areas: "e  f" " pa1 pa2";
+
+    
+}
+
+.ceva4{
+    grid-area: e;
+}
+
+#img-angular{
+    grid-area: f;
+    margin-left: auto;
+}
+
+#p1-angular{
+    grid-area: pa1;
+}
+
+#p2-angular{
+    grid-area: pa2;
+    margin-left: auto;
+}
+
+.build-tools-workshop{
+
+    display: grid;
+
+    grid-template-columns:1fr 1fr ;
+
+    grid-template-rows: auto;
+
+    grid-template-areas: "g  h" " pb1 pb2";
+
+}
+
+.ceva5{
+    grid-area: g;
+}
+
+#img-build{
+    grid-area: h;
+    margin-left: auto;
+}
+
+#p1-build{
+    grid-area: pb1;
+}
+
+#p2-build{
+    grid-area: pb2;
+    margin-left: auto;
+}
+
+
+
+.npm-workshop{
+
+    display: grid;
+
+    grid-template-columns:1fr 1fr ;
+
+    grid-template-rows: auto;
+
+    grid-template-areas: "i  j" " pn1 pn2";
+
+}
+
+.ceva6{
+    grid-area: i;
+}
+
+#img-npm{
+    grid-area: j;
+    margin-left: auto;
+}
+
+#p1-npm{
+    grid-area: pn1;
+}
+
+#p2-npm{
+    grid-area: pn2;
+    margin-left: auto;
+}
+
+.express-workshop{
+
+    display: grid;
+
+    grid-template-columns:1fr 1fr ;
+
+    grid-template-rows: auto;
+
+    grid-template-areas: "k  l" " pe1 pe2";
+
+}
+
+.ceva7{
+    grid-area: k;
+}
+
+#img-exp{
+    grid-area: l;
+    margin-left: auto;
+}
+
+#p1-exp{
+    grid-area: pe1;
+}
+
+#p2-exp{
+    grid-area: pe2;
+    margin-left: auto;
+}
+
+.reg_for_act h3{
+    text-align: right;
+
+}
+
+.paymentinfo{
+    border:none;
+}
+
+#pay,#expireYY,#expireMM{
+    border:1px solid #e9e4de;
+}
+
+.container-pi{
+    display: flex;
+    flex-direction: column;
+}
+
+.conainer-cardinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#expireMM,#expireYY,#expire,#zipcode,#cvv{
+    display:flex;
+
+}
+
+.paypal{
+    padding:10px;
+    margin-top:10px;
+    border:1px solid #e9e4de;
+    background-color: #fefdf9;
+    width:95%;
+
+}
+
+.bitcoin{
+    padding:10px;
+    margin-top:10px;
+    border:1px solid #e9e4de;
+    background-color: #fefdf9;
+    width:95%;
+
+}
+
+.registerbtn{
+
+    padding:10px;
+    margin-top:10px;
+    border:1px solid #b44767;
+    background-color: #c44169;
+    color:white;
+    max-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
